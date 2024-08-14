@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Promedio notas</title>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  
+  <div class="container mt-5">
+    <h1 class="text-primary mb-4">Formulario de registro de notas</h1>
+
+    <!-- FORMULARIO -->
+    <form class="mb-4" id="form">
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Nombre de alumno</label>
+        <input type="text" class="form-control" id="nombre" aria-describedby="emailHelp" required>
+      </div>
+
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Materia</label>
+        <input type="text" class="form-control" id="materia" required>
+      </div>
+
+      <div class="mb-3 d-flex justify-content-between">
+        <div class="mb-3">
+          <label class="form-label">Nota 1</label>
+          <input type="number" class="form-control" id="nota1" min="0" max="10" step="any" required>
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label">Nota 2</label>
+          <input type="number" class="form-control" id="nota2" min="0" max="10" step="any" required>
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label">Nota 3</label>
+          <input type="number" class="form-control" id="nota3" min="0" max="10" step="any" required>
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label">Nota 4</label>
+          <input type="number" class="form-control" id="nota4" min="0" max="10" step="any" required>
+        </div>
+      </div>
+
+      <div class="d-flex justify-content-between">
+        <button type="submit" class="btn btn-primary">Enviar</button>
+        
+        <a href="./tabla.html#tabla" class="text-light link-underline-secondary link-underline-opacity-100">
+          <button type="button" class="btn btn-secondary">Ver tabla de notas</button>
+        </a>
+      </div>
+    </form>
+
+    <!-- TABLA -->
+    <!-- <h1 class="text-primary mb-4">Tabla de notas</h1> -->
+    <!-- <table class="table table-success table-striped mb-4" >
+      <thead>
+        <tr>
+          <th scope="col">No</th>
+          <th scope="col">Nombre Alumno</th>
+          <th scope="col">Materia</th>
+          <th scope="col">Nota 1</th>
+          <th scope="col">Nota 2</th>
+          <th scope="col">Nota 3</th>
+          <th scope="col">Nota 4</th>
+          <th scope="col">Total</th>
+          <th scope="col">Estatus</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr></tr>
+      </tbody>
+    </table> -->
+  </div>
+
+
+  
+
+  <!-- Typescript -->
+  <!-- <script src="./dist/index.js"></script> -->
+  <script src="./dist/index2.js"></script>
+</html>
