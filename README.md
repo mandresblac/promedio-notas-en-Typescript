@@ -6,3 +6,10 @@
   - [Javascript](https://developer.mozilla.org/es/docs/Web/javascript): Lenguaje de programación para desarrollo de forntend y Backend.
   - [Typescript](https://www.typescriptlang.org/): Superset de javascript para desarrollo del Backend.
   - [NodeJs](https://nodejs.org/en): Entorno de ejecución de JavaScript multiplataforma, de código abierto y gratuito que permite crear servidores y aplicaciones web.
+
+ ## Imagenes
+![Imagen 1](./img/promedioNotas1.png)
+
+![Imagen 2](./img/promedioNotas2.png)
+
+![Imagen 3](./img/promedioNotas3.png)
